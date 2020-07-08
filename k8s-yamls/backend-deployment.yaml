@@ -35,7 +35,7 @@ spec:
     spec:                 
       containers: 
       - name: to-do-app-backend 
-        image: @docker-image@   # docker image of backend application
+        image: prasanna197721/backend:@docker-image@  # docker image of backend application
         env:   # Setting Enviornmental Variables
           - name: DB_HOST   # Setting Database host address from configMap
             valueFrom: 
